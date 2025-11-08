@@ -14,6 +14,7 @@ It is **Dockerized** for easy deployment and includes mock JSON data for offline
 git clone https://github.com/prathameshkulkarni312/dappinsight-backend.git
 cd dappinsight-backend
 
+```
 ## ⚙️ Environment Setup
 
 Before running the backend (either locally or with Docker), create a `.env` file in the project root:
