@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "8f5e7e34-87f1-44c9-8e1a-cb0f79aa4bf1",
+		"name": "DappInsight Backend",
+		"description": "APIs for DappLooker Full Stack Engineer Assignment — by Prathamesh Kulkarni”",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49911614",
+		"_collection_link": "https://prathmeshkulkarni312-2851391.postman.co/workspace/Prathmesh-Kulkarni's-Workspace~3e446f2a-dfd0-4739-8fa5-9159552dec78/collection/49911614-8f5e7e34-87f1-44c9-8e1a-cb0f79aa4bf1?action=share&source=collection_link&creator=49911614"
+	},
+	"item": [
+		{
+			"name": "HyperLiquid Wallet PnL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/hyperliquid/0x19f03256cf9e42105f424dbb99e5e00d5f1e9f1d/pnl?start=2025-11-01&end=2025-11-05",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"hyperliquid",
+						"0x19f03256cf9e42105f424dbb99e5e00d5f1e9f1d",
+						"pnl"
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "2025-11-01"
+						},
+						{
+							"key": "end",
+							"value": "2025-11-05"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Token Insight API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/token/bitcoin/insight",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"token",
+						"bitcoin",
+						"insight"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
