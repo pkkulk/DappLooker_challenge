@@ -51,6 +51,21 @@ Your backend will be available at:
 ```
 http://localhost:5000
 ```
+## 🧪  API testing Postman Collection (Bonus)
+
+A Postman collection is included for easy API testing once the backend is running.
+
+📁 **File:** `DappInsight_Backend.postman_collection.json`
+
+### 🧠 How to Use
+1. Ensure the backend is running (either via Docker or locally).
+   - Docker: `docker run -p 5000:5000 --env-file .env dappinsight-backend`
+   - Local: `npm run dev`
+2. Open Postman → click **Import** → choose the file.
+3. The collection **“DappInsight Backend”** will appear in your sidebar.
+4. Run the two saved requests:
+   - **Token Insight API (POST)** — gets token data + Gemini insight  
+   - **HyperLiquid Wallet PnL (GET)** — returns wallet performance summary
 
 ### 3️⃣ Stop the container
 
